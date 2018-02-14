@@ -20,8 +20,9 @@ env.render()
 
 
 observation, reward, done, info = env.step(random_action())
-print(observation)
-# observation in the frozen lake is is the how far we got
+# print(observation) # observation in the frozen lake is is the how far we got
+
+print(env.action_space)
 
 env.render()
 action = 1 if observation > 0 else 2
