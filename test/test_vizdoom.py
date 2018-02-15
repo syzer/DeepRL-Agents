@@ -1,1 +1,1 @@
-from vizdoom import Doom
+from vizdoom import DoomGame
